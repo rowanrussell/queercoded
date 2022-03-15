@@ -76,3 +76,6 @@ let goodbyeAnswer = function(goodbye) {
 }
 
 
+document.write(
+    `${goodAfternoonAnswer(goodAfternoon)}`
+)
