@@ -15,7 +15,7 @@ let helloAnswer = function(hello) {
     if (hello === "Halo") {
         document.write("1. Hello: Good job! The correct answer is Halo. ")
     } else { 
-        document.write("1. Hello: Not quite! The answer is Halo.")
+        document.write(`1. Hello: Not quite! You put ${hello}.`)
     }
 }
 
@@ -76,6 +76,4 @@ let goodbyeAnswer = function(goodbye) {
 }
 
 
-document.write(
-    `${goodAfternoonAnswer(goodAfternoon)}`
-)
+
